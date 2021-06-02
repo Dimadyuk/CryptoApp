@@ -15,7 +15,6 @@ class CoinInfoAdapter(private val context: Context) : RecyclerView.Adapter<CoinI
     var coinInfoList: List<CoinPriceInfo> = listOf()
         set(value) {
             field = value
-            notifyDataSetChanged()
         }
 
     var onCoinClickListener: OnCoinClickListener? = null
