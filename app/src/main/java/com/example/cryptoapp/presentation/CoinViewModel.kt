@@ -1,4 +1,4 @@
-package com.example.cryptoapp.presintation
+package com.example.cryptoapp.presentation
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
