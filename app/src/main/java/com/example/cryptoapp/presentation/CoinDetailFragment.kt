@@ -31,7 +31,7 @@ class CoinDetailFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentCoinDetailBinding.inflate(inflater, container, false)
         return binding.root
     }
